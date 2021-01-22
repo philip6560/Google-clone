@@ -1,0 +1,153 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+}
+
+#navBar{
+    width: 100%;
+    position: relative;
+
+
+}
+
+#app-menu{
+    padding: 0;
+    width: 32px;
+    height: 32px;
+}
+
+#app-dropdown-wrapper:hover #dropdown-application-card{
+    display: block;
+
+}
+
+#app-dropdown-wrapper{
+    margin-right: 3px;
+    display: inline-block;
+}
+
+
+.menu-items{
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+}
+
+.menu-items > a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    position: relative;
+    top: -11px;
+    margin-right: 16px;
+}
+
+.menu-items > a:hover{
+    text-decoration: underline;
+}
+
+.menu-items > i{
+    position: relative;
+    top: -3px;
+}
+
+
+#profile-pic{
+    width: 32px;
+    height:32px;
+    border-radius: 20px;
+}
+
+#search-box{
+    width: 582px;
+    color:#222;
+    border: 1px solid #dfe1e5;
+    font-size: 13px;
+    padding: 14px;
+    border-radius: 24px;
+    outline: none;
+
+}
+
+#search-box:hover:focus{
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+
+.button{
+    background-color: #f2f2f2;
+    color: #5f6368;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0,0,0,0);
+    outline: none;
+}
+
+.button:hover{
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,1) ;
+    color: #222;
+}
+
+#dropdown-application-card{
+    width: 285px;
+    padding: 28px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    display: none;
+    position: absolute;
+    top: 42px;
+    right: 69px;
+
+}
+
+.app-item{
+    display: inline-block;
+    width: 84px;
+    text-align: center;
+    padding: 8px 2px;
+}
+
+.app-item:hover{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 7px;
+}
+
+.app-image{
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+}
+
+.app-item-label{
+    margin: 1px;
+    color: rgba(0,0,0,0.87);
+
+}
+
+.bg-mic{
+    width: 15px;
+    height: 15px;
+    background: url("google_assets/google_mic.png") no-repeat right;
+
+}
+#search-box-wrapper{
+    width: 635px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-position{
+    width: 20px;
+    height: 22px;
+    position: relative;
+    top: 7px;
+    right: 38px;
+
+
+}

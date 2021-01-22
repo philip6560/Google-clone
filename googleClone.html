@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="googleClone.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" >
+    <title>Google Clone</title>
+</head>
+<body>
+    <header id="navBar">
+        <div style="float: right; padding: 10px 20px;">
+            <span class="menu-items"><a href="">Gmail</a></span>
+            <span class="menu-items"><a href="">Images</a></span>
+            <div id="app-dropdown-wrapper">
+                <span class="menu-items"><i class="material-icons" id="app-menu">apps</i></span>
+                    <div id="dropdown-application-card">
+                        <div class="app-item">
+                            <img class="app-image" src="google_assets/google_search.png" alt="search"><p class="app-item-label">Search</p></div>
+                        <div class="app-item">
+                            <img class="app-image" src="google_assets/google_maps.png" alt="maps"><p class="app-item-label">Maps</p></div>
+                        <div class="app-item">
+                            <img class="app-image" src="google_assets/google_drive_logo.png" alt="drive"><p class="app-item-label">Drive</p></div>
+                        <div class="app-item">
+                            <img class="app-image" src="google_assets/Google_Calendar.svg" alt="calender"><p class="app-item-label">Calender</p></div>
+                        <div class="app-item">
+                            <img class="app-image" src="google_assets/google_photos.png" alt="photos"><p class="app-item-label">Photos</p></div>
+                    </div>
+            </div>
+            <span class="menu-items"><img id="profile-pic" src="flags/uk.png" alt="profile"></span>
+        </div>
+    </header>
+    <div id="search-box-wrapper">
+        <div>
+            <img style="margin-left: 180px; margin-top: 298px; margin-bottom: 15px" src="google_assets/googlelogo.png" alt="google">
+        </div>
+        <div>
+            <input id="search-box" type="text" name="search_query"><span><img id="img-position" src="google_assets/google_mic.png" alt="mic"></span>
+        </div>
+        <div style="padding: 30px 0px 0px 170px">
+            <button class="button">Google Search</button>
+            <button class="button">I'm Feeling Lucky</button>
+        </div>
+    </div>
+</body>
+</html>
